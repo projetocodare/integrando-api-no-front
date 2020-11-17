@@ -39,13 +39,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Live Share](https://visualstudio.microsoft.com/pt-br/services/live-share/)
 
 ## 🔖 Layout
-Para acessar o layout, basta acessar o seguinte link:[Figma](<https://www.figma.com/file/tok681yA4sV30JbdfXjXIF/Codare>).
+Para acessar o layout, basta acessar o seguinte link:[Figma](<https://www.figma.com/file/5hUNGYLxwuwguXTRvVggqp/Codare---Projeto-Music?node-id=1%3A330>).
 
 ## :memo: License
 This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
 
 ## 🙏🏼 Agradecimento
-Quero agradecer ao [Matheus Barros] ( https://github.com/#) pela gentileza e disposição, por ter aceitado o desafio de compartilhar seu conhecimento com a comunidade. Contribuindo com a democratização do ensino de tecnologia.
+Quero agradecer ao [Matheus Barros] ( https://github.com/barros42) pela gentileza e disposição, por ter aceitado o desafio de compartilhar seu conhecimento com a comunidade. Contribuindo com a democratização do ensino de tecnologia.
 
 ---
 
