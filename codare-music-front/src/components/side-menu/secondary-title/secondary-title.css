@@ -4,11 +4,30 @@
     line-height: 22px;
     margin-top: 20px;
     font-style: normal;
+    position: relative;
+    display: flex;
 }
 
 .secondary-title:hover{
     cursor: pointer;
     color: var(--six-purple);
+}
+
+.secondary-title .arrow{
+    background-image: url('../../../assets/icons/menu-arrow.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    transition: 100ms;
+}
+
+.secondary-title .arrow.opened{
+    transform: rotate(180deg);
+    transition: 100ms;
 }
 
 .items{

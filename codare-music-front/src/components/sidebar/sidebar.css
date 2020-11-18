@@ -1,5 +1,11 @@
 #codare-sidebar{
-    max-width: 340px;
-    width: 30%;
+    width: 20%;
     height: 100%;
+    position: fixed;
+    max-height: calc(80vh - 85px);
+    overflow: auto;
+}
+
+#codare-sidebar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }

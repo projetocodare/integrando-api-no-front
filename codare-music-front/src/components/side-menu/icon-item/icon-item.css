@@ -1,0 +1,30 @@
+.codare-icon-item{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.codare-icon-item:hover{
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.codare-icon-item .icon{
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.codare-icon-item .text{
+    position: relative;
+    margin-top: 2px;
+}
