@@ -1,0 +1,11 @@
+#codare-menu{
+    background-color: var(--two-gray);
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#codare-menu:hover{
+    background-color: var(--two-gray-hover);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

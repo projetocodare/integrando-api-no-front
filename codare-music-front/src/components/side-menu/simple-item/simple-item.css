@@ -1,0 +1,12 @@
+.simple-item{
+    font-weight: 200;
+    color: var(--white);
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.simple-item:hover{
+    font-weight: 300;
+}

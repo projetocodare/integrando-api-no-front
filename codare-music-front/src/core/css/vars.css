@@ -1,0 +1,14 @@
+/* CSS Variables */
+
+:root {
+    --default-gray: #292929;
+    --one-gray: #1E1E1F;
+    --two-gray: #292929;
+    --two-gray-hover: #2c2b2e;
+    --five-gray: #141415;
+
+    --white: #FFF;
+
+    --six-purple: #BC87FF;
+
+}
