@@ -7,4 +7,37 @@
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     height: 700px;
+    padding-left: 100px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#codare-main-banner .codare-featured-playlist{
+    font-weight: 700;
+    font-size: 70px;
+    width: 100%;
+}
+
+#codare-main-banner .codare-featured-playlist-description{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#codare-featured-button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(90deg, #8A30FD 0%, #7000FF 100%), #2C575A;
+    border-radius: 5px;
+    width: 193px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 10px;
+    cursor: pointer;
 }

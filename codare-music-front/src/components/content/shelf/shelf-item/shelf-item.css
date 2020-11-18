@@ -3,11 +3,38 @@
     width: 280px;
     max-width: 100%;
     margin-right: 20px;
-    background-color: red;
+    position: relative;
 }
 
 .codare-shelf-item:last-child{
     margin-right: none;
+}
+
+.codare-overlay{
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    position: relative;
+}
+
+.codare-overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 273px;
+    margin-left: 3px;
+    height: calc(100% - 7px);
+    margin-top: 4px;
+    border-radius: 5px;
+    top:0; 
+    left:0;
+    background:rgba(0,0,0,0.2);
+    opacity: 1;
+    transition: opacity 0s;
+    -webkit-transition: opacity 0s;
+    -moz-transition: opacity 0s;
+}
+.codare-overlay:hover:after {
+    opacity: 0;
 }
 
 .codare-shelf-item .codare-cover{
@@ -30,10 +57,17 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+.codare-shelf-item .codare-title:hover{
+    color: var(--six-purple);
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .codare-shelf-item .codare-subtitle{
+    position: relative;
     color: var(--white);
     font-weight: 300;
     height: 50px;

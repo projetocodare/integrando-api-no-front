@@ -1,6 +1,13 @@
+.codare-shelf-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
 .codare-shelf{
     margin-top: 20px;
     height: 100px;
+    max-width: 100%;
     overflow: hidden;
 }
 
@@ -19,16 +26,8 @@
 }
 
 .codare-shelf-items{
-    position: relative;
     width: 100%;
-    max-width: 90%;
     height: 420px;
-    display: flex;
     padding-top: 5px;
-    overflow: hidden;
-    background-color: blue;
-}
-
-.codare-shelf-items::-webkit-scrollbar{
-    display: none;
+    position: absolute;
 }
