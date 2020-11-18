@@ -1,24 +1,37 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import IndexUseCase from '../../../pages/index/use-cases/index.use-case'
 import './main-banner.css'
 
-const MainBanner = ({ data }) => {
+const MainBanner = () => {
+
+    const indexUseCase = IndexUseCase
+
+    const[mainBannerData, setMainBannerData] = useState(null)
+
+    useEffect(()=>{
+        if(!mainBannerData) { 
+            indexUseCase.loadMainBanner().then((data) => {
+                setMainBannerData(data)
+            })
+         }
+    })
 
     let firstPart = '...'
     let rest = '...'
-
-    if(data){
+    
+    if(mainBannerData){
         try {
-         let titleArray = data.title.split(' ')
+         let titleArray = mainBannerData.title.split(' ')
          firstPart = titleArray[0]
          delete titleArray[0]
          rest = titleArray.join(' ')
         } catch (error) {
-          firstPart = data.title
+          firstPart = mainBannerData.title
         }
      }
 
     const goToUrl = () => {
-        window.open(data.buttonUrl, '_blank')
+        window.open(mainBannerData.buttonUrl, '_blank')
     }
 
     return(
@@ -26,12 +39,12 @@ const MainBanner = ({ data }) => {
             <div id='codare-main-text'>
                 <div className='codare-featured-playlist'>{firstPart}</div>
                 <div className='codare-featured-playlist'>{rest}</div>
-                <div className='codare-featured-playlist-description'>{data ? data.description : '...'}</div>
+                <div className='codare-featured-playlist-description'>{mainBannerData ? mainBannerData.description : '...'}</div>
 
                 <div 
                 id='codare-featured-button' 
-                title={(data) && `Acesar a Playlist ${data.title}`} 
-                className={`${!data ? 'disabled' : ''}`} 
+                title={(mainBannerData) && `Acesar a Playlist ${mainBannerData.title}`} 
+                className={`${!mainBannerData ? 'disabled' : ''}`} 
                 onClick={ () => goToUrl() } >
                     Ouça mais
                 </div>

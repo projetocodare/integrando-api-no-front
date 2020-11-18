@@ -1,27 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import IndexUseCase from '../../pages/index/use-cases/index.use-case'
 import './content.css'
 import MainBanner from './main-banner'
 import Shelf from './shelf'
 
-const Content = ({ banner }) => {
+const Content = () => {
+    
+    const indexUseCase = IndexUseCase
 
-    const shelfs = [
-        {
-            title: 'Playlists Recomendadas',
-            description: 'Com base no que escutou nos ultimos dias',
-            items: [1,2,3,4,5,1,2,3,4,5,1,2,3,4,5]
-        },
-        {
-            title: 'Tocadas recentemente',
-            description: 'Com base no que escutou nos ultimos dias',
-            items: [1,2,3,4,5,1,2,3,4,5,1,2,3,4,5]
-        }
-    ]
+    const[playlistData, setPlaylistData] = useState(null)
+
+    useEffect(()=>{
+        if(!playlistData) { 
+            indexUseCase.loadPlaylists().then((data) => {
+                setPlaylistData(data)
+            })
+         }
+    })
 
     return(
         <div id="codare-content">
-            <MainBanner data={banner} />
-            {shelfs.map(sh => <Shelf key={sh.title} props={sh}/>)}
+            <MainBanner />
+            {playlistData && playlistData.map(sh => <Shelf key={sh.title} props={sh}/>)}
         </div>
     )
 }

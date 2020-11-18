@@ -27,7 +27,7 @@ const Shelf = ({ props }) => {
                 itemWidth={300}
                 breakpoints={true}
                 draggable={true}
-                children={props.items.map(item => <ShelfItem key={item}/>)}
+                children={props.items.map(item => <ShelfItem data={item} key={item}/>)}
                 plugins={[
                     'infinite',
                     'arrows',
