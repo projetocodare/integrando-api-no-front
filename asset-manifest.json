@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/integrando-api-no-front/static/css/main.d1d5370b.chunk.css",
+    "main.js": "/integrando-api-no-front/static/js/main.76f9f4cd.chunk.js",
+    "main.js.map": "/integrando-api-no-front/static/js/main.76f9f4cd.chunk.js.map",
+    "runtime-main.js": "/integrando-api-no-front/static/js/runtime-main.7f5a2462.js",
+    "runtime-main.js.map": "/integrando-api-no-front/static/js/runtime-main.7f5a2462.js.map",
+    "static/css/2.c69402d6.chunk.css": "/integrando-api-no-front/static/css/2.c69402d6.chunk.css",
+    "static/js/2.9570b5ba.chunk.js": "/integrando-api-no-front/static/js/2.9570b5ba.chunk.js",
+    "static/js/2.9570b5ba.chunk.js.map": "/integrando-api-no-front/static/js/2.9570b5ba.chunk.js.map",
+    "static/js/3.67f52204.chunk.js": "/integrando-api-no-front/static/js/3.67f52204.chunk.js",
+    "static/js/3.67f52204.chunk.js.map": "/integrando-api-no-front/static/js/3.67f52204.chunk.js.map",
+    "index.html": "/integrando-api-no-front/index.html",
+    "static/css/2.c69402d6.chunk.css.map": "/integrando-api-no-front/static/css/2.c69402d6.chunk.css.map",
+    "static/css/main.d1d5370b.chunk.css.map": "/integrando-api-no-front/static/css/main.d1d5370b.chunk.css.map",
+    "static/js/2.9570b5ba.chunk.js.LICENSE.txt": "/integrando-api-no-front/static/js/2.9570b5ba.chunk.js.LICENSE.txt",
+    "static/media/shelf-item.css": "/integrando-api-no-front/static/media/album-cover.9fabdbe5.svg",
+    "static/media/header.css": "/integrando-api-no-front/static/media/codare-music-logo.a1e0784f.svg",
+    "static/media/house-icon.6f3b4dc5.svg": "/integrando-api-no-front/static/media/house-icon.6f3b4dc5.svg",
+    "static/media/main-banner.css": "/integrando-api-no-front/static/media/main-banner.b43a3823.svg",
+    "static/media/secondary-title.css": "/integrando-api-no-front/static/media/menu-arrow.76afa330.svg",
+    "static/media/play-icon.e7fbe017.svg": "/integrando-api-no-front/static/media/play-icon.e7fbe017.svg",
+    "static/media/sound-icon.94faff8b.svg": "/integrando-api-no-front/static/media/sound-icon.94faff8b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f5a2462.js",
+    "static/css/2.c69402d6.chunk.css",
+    "static/js/2.9570b5ba.chunk.js",
+    "static/css/main.d1d5370b.chunk.css",
+    "static/js/main.76f9f4cd.chunk.js"
+  ]
+}
