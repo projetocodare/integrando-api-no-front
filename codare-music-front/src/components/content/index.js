@@ -3,7 +3,7 @@ import './content.css'
 import MainBanner from './main-banner'
 import Shelf from './shelf'
 
-const Content = () => {
+const Content = ({ banner }) => {
 
     const shelfs = [
         {
@@ -20,8 +20,8 @@ const Content = () => {
 
     return(
         <div id="codare-content">
-            <MainBanner/>
-            {shelfs.map(sh => <Shelf props={sh}/>)}
+            <MainBanner data={banner} />
+            {shelfs.map(sh => <Shelf key={sh.title} props={sh}/>)}
         </div>
     )
 }

@@ -23,11 +23,11 @@ const Shelf = ({ props }) => {
 
             <div className='codare-shelf-items'>
 
-                <Carousel
+            <Carousel
                 itemWidth={300}
                 breakpoints={true}
                 draggable={true}
-                children={props.items.map(item => <ShelfItem/>)}
+                children={props.items.map(item => <ShelfItem key={item}/>)}
                 plugins={[
                     'infinite',
                     'arrows',

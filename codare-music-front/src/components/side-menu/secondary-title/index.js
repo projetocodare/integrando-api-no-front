@@ -22,9 +22,9 @@ const SecondaryTitle = ({title, items}) => {
             timeout={100}
             classNames='codare-items'>
             
-            {items 
+            {items.length
                 ? 
-                <div className='codare-item'>{items.map(item => <SimpleItem data={item}/>)}</div>
+                <div className='codare-item'>{items.sort().map(item => <SimpleItem key={item} data={item}/>)}</div>
                 :
                 <div className='codare-item'><SimpleItem data={'Vazio'}/></div>
             }

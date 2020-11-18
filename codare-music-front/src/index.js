@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Index from './pages/index.page';
+import Index from './pages/index/index.page';
 import reportWebVitals from './reportWebVitals';
 
 import './core/css/normalize.css'

@@ -2,10 +2,10 @@ import React from 'react'
 import SideMenu from '../side-menu'
 import './sidebar.css'
 
-const Sidebar = () => {
+const Sidebar = ({ data }) => {
     return(
         <div id="codare-sidebar">
-            <SideMenu/>
+            <SideMenu data={data}/>
         </div>
     )
 }

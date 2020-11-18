@@ -41,3 +41,8 @@
     margin-top: 10px;
     cursor: pointer;
 }
+
+#codare-featured-button.disabled{
+    background: #bbbbbb !important;
+    cursor: not-allowed !important;
+}
