@@ -55,11 +55,11 @@ const IndexUseCase = {
 
         const payload = [
             {
-                title: 'Playlists recomendadas',
+                title: 'Melhores Álbuns',
                 description: 'Com base no que escutou nos ultimos dias',
                 items: [1,2,3,4,5,6,7,8,9,1,2,3,4,5].map(i => {
                     return {
-                        image: 'https://s.glbimg.com/jo/g1/f/original/blog/b8e01596-f282-4f4b-bd7c-90f8222fd43c_matanzaassimcomecaabebedeiracapa.jpg',
+                        image: 'https://a-static.mlcdn.com.br/618x463/cd-iron-maiden-iron-maiden-1980-remastered-digipack-warner-music/kantodoartistamusicaimagem/6276471233/3f4edf2f8e0c45feb68335a543b7f341.jpg',
                         title: 'Best os Start is Born',
                         description: 'Best os Start is Born Best os Start is Born Best os Start is Born Best os Start is Born'
                     }
