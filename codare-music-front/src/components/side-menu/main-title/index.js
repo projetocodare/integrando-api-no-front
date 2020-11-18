@@ -6,7 +6,7 @@ const MainTitle = ({ data }) => {
     const text = data.toUpperCase();
 
     return(
-        <div className='main-title'>{text}</div>
+        <div className='codare-main-title'>{text}</div>
     )
 }
 

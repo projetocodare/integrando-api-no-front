@@ -15,7 +15,7 @@
     font-weight: 300;
 }
 
-.codare-icon-item .icon{
+.codare-icon-item .codare-icon{
     width: 22px;
     height: 22px;
     margin-right: 20px;
@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
 }
 
-.codare-icon-item .text{
+.codare-icon-item .codare-text{
     position: relative;
     margin-top: 2px;
 }

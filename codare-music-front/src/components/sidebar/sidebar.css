@@ -2,10 +2,11 @@
     width: 20%;
     height: 100%;
     position: fixed;
-    max-height: calc(80vh - 85px);
+    z-index: 11;
     overflow: auto;
+    max-height: 82vh;
 }
 
 #codare-sidebar::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    display: none;
 }

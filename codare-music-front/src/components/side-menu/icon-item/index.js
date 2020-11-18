@@ -9,8 +9,8 @@ const IconItem = ({ title, icon }) => {
 
     return(
         <div className='codare-icon-item'>
-            <div className='icon' style={css} />
-            <div className='text'>{title}</div>
+            <div className='codare-icon' style={css} />
+            <div className='codare-text'>{title}</div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.secondary-title{
+.codare-secondary-title{
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -8,12 +8,12 @@
     display: flex;
 }
 
-.secondary-title:hover{
+.codare-secondary-title:hover{
     cursor: pointer;
     color: var(--six-purple);
 }
 
-.secondary-title .arrow{
+.codare-secondary-title .codare-arrow{
     background-image: url('../../../assets/icons/menu-arrow.svg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -25,28 +25,28 @@
     transition: 100ms;
 }
 
-.secondary-title .arrow.opened{
+.codare-secondary-title .codare-arrow.opened{
     transform: rotate(180deg);
     transition: 100ms;
 }
 
-.items{
+.codare-items{
     background-color: rebeccapurple;
 }
 
-.items-enter {
+.codare-items-enter {
     opacity: 0;
 }
 
-.items-enter-active {
+.codare-items-enter-active {
     opacity: 1;
     transition: opacity 100ms;
 }
 
-.items-exit {
+.codare-items-exit {
     opacity: 1;
 }
-.items-exit-active {
+.codare-items-exit-active {
     opacity: 0;
     transition: opacity 100ms;
 }

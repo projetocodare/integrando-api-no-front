@@ -1,0 +1,34 @@
+.codare-shelf{
+    margin-top: 20px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.codare-shelf .title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.codare-shelf .subtitle{
+    font-weight: 200;
+    font-size: 18px;  
+    line-height: 22px; 
+    height: 22px;
+    margin-top: 5px;
+}
+
+.codare-shelf-items{
+    position: relative;
+    width: 100%;
+    max-width: 90%;
+    height: 420px;
+    display: flex;
+    padding-top: 5px;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.codare-shelf-items::-webkit-scrollbar{
+    display: none;
+}

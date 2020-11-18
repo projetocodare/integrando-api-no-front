@@ -1,0 +1,46 @@
+.codare-shelf-item{
+    min-height: 400px;
+    width: 280px;
+    max-width: 100%;
+    margin-right: 20px;
+    background-color: red;
+}
+
+.codare-shelf-item:last-child{
+    margin-right: none;
+}
+
+.codare-shelf-item .codare-cover{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../../../../assets/images/album-cover.svg');
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.codare-shelf-item .codare-title{
+    color: var(--white);
+    font-weight: 500;
+    height: 25px;
+    line-height: 25px;  
+    font-size: 23px;  
+    margin-left: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.codare-shelf-item .codare-subtitle{
+    color: var(--white);
+    font-weight: 300;
+    height: 50px;
+    width: calc(100% - 10px);
+    line-height: 20px;  
+    font-size: 15px;  
+    margin-left: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}

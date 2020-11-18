@@ -11,22 +11,22 @@ const SecondaryTitle = ({title, items}) => {
     return(
         <>
         
-        <div className='secondary-title' onClick={() => setTitleState(!titleState) }>
-            <div className='text'>{title}</div>
-            <div className={`arrow ${titleState && 'opened'}`}/>
+        <div className='codare-secondary-title' onClick={() => setTitleState(!titleState) }>
+            <div className='codare-text'>{title}</div>
+            <div className={`codare-arrow ${titleState && 'opened'}`}/>
         </div>
 
         <CSSTransition
             unmountOnExit
             in={titleState}
             timeout={100}
-            classNames='items'>
+            classNames='codare-items'>
             
             {items 
                 ? 
-                <div className='item'>{items.map(item => <SimpleItem data={item}/>)}</div>
+                <div className='codare-item'>{items.map(item => <SimpleItem data={item}/>)}</div>
                 :
-                <div className='item'><SimpleItem data={'Vazio'}/></div>
+                <div className='codare-item'><SimpleItem data={'Vazio'}/></div>
             }
         </CSSTransition>
         

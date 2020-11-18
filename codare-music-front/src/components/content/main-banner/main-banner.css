@@ -1,0 +1,10 @@
+#codare-main-banner{
+    width: 100%;
+    border-radius: 5px;
+    background-image: url('../../../assets/images/main-banner.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 700px;
+}

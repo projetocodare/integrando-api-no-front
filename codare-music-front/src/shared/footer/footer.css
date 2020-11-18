@@ -1,6 +1,6 @@
 #codare-footer{
     position: relative;
-    z-index: 10;
+    z-index: 8;
     background-color:var(--five-gray);
     height: 85px;
     width: 100%;
