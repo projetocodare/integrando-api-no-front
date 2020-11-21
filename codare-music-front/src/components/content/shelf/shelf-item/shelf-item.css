@@ -15,19 +15,21 @@
     -webkit-transition: opacity 0.5s ease;
     -moz-transition: opacity 0.5s ease;
     position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .codare-overlay:after {
     content: '\A';
     position: absolute;
-    width: 273px;
-    margin-left: 3px;
-    height: calc(100% - 7px);
-    margin-top: 4px;
+    width: 280px;
+    margin-left: 0px;
+    height: calc(100%);
+    margin-top: 0px;
     border-radius: 5px;
-    top:0; 
-    left:0;
-    background:rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
     opacity: 1;
     transition: opacity 0s;
     -webkit-transition: opacity 0s;
@@ -44,6 +46,11 @@
     width: 280px;
     height: 280px;
     border-radius: 5px;
+}
+
+.codare-overlay:hover .codare-cover{
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .codare-shelf-item .codare-title{

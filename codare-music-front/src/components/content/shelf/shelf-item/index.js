@@ -13,7 +13,7 @@ const ShelfItem = ({ data }) => {
 
             let customCss = {
                 backgroundImage: `url("${data.image}")`,
-                backgroundSize: 'contain'
+                backgroundSize: 'cover'
             }
 
             setCustomCover(customCss)
