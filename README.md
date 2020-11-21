@@ -39,6 +39,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Live Share](https://visualstudio.microsoft.com/pt-br/services/live-share/)
 - [Postman](https://www.postman.com/) 
+- [NodeJS](https://nodejs.org/en/)
 
 ## 🔖 Layout
 Para acessar o layout, basta acessar o seguinte link:[Figma](<https://www.figma.com/file/5hUNGYLxwuwguXTRvVggqp/Codare---Projeto-Music?node-id=1%3A330>).
