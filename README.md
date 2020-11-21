@@ -24,7 +24,7 @@
 </p>
 
 ## 💻 Project
-**Apicativo de Musica** é um projeto desenvolvido com base no projeto da semana Level tech, solução apresentada pelo instrutor Matheus Barros.
+**Aplicativo de Musica** é um projeto desenvolvido com base no projeto da semana Level tech, solução apresentada pelo instrutor Matheus Barros.
 
 ## :rocket: Technologies
 Este projeto foi desenvolvido com as seguintes tecnologias:
